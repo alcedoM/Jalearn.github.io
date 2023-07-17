@@ -1,0 +1,40 @@
+body{
+	background-color: #aacde1;	
+}
+
+h1{
+/*	color: #fdedd0;*/
+}
+
+.main{
+	position: absolute; 
+	top: 45%; 
+	left: 50%; 
+	transform: translate(-50%, -50%); 
+}
+.character{
+	height: 100px;
+	width: 100px;
+	background-color: #69a6d1;
+	border: 2px solid #1f597e;
+	border-radius: 15%;
+	display: flex;
+}
+
+.text{
+	font-size: 60px;
+	color: #fdedd0;
+	text-align: center;
+	margin: auto;
+}
+
+.change{
+	margin: 20px 0;
+}
+.pianjia{
+	margin: 0 20px;
+}
+.btn{
+	background-color: #69a6d1; 
+	color: #fdedd0;
+}
