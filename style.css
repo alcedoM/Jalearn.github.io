@@ -28,13 +28,37 @@ h1{
 	margin: auto;
 }
 
-.change{
-	margin: 20px 0;
+.tip{
+	height: 40px;
+	width: 60px;
+	display: flex;
+	margin-bottom: 10px;
 }
-.pianjia{
+
+.tiptext{
+	font-size: 30px;
+	color: #aacde1;
+	text-align: center;
+	margin: auto;
+}
+
+#qpianjia{
+	margin: 0 20px;
+}
+#zpianjia{
+	margin: 0 20px;
+}
+#pianmixbtn{
 	margin: 0 20px;
 }
 .btn{
 	background-color: #69a6d1; 
 	color: #fdedd0;
+}
+.row1{
+	margin-bottom: 20px;
+}
+
+.change{
+	margin-right: 20px;
 }
