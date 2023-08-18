@@ -40,11 +40,11 @@ var data = {
 };
 var charList = data.qPingJia;
 
-text = document.getElementsByClassName("text")[0];
-tiptext = document.getElementsByClassName("tiptext")[0];
-protip = document.getElementsByClassName("protip")[0];
-changebtn = document.getElementsByClassName("change")[0];
-selectBtnGroup = document.getElementsByClassName("select-btn");
+var text = document.getElementsByClassName("text")[0];
+var tiptext = document.getElementsByClassName("tiptext")[0];
+var protip = document.getElementsByClassName("protip")[0];
+var changebtn = document.getElementsByClassName("change")[0];
+var selectBtnGroup = document.getElementsByClassName("select-btn");
 
 
 // 按键函数

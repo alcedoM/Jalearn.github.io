@@ -3,9 +3,28 @@ body{
 }
 
 h1{
-/*	color: #fdedd0;*/
+	position: absolute;
+	left: 5rem;
+	bottom: 5rem;
+	font-size: 80px;
+	color: rgba(105, 166, 209, 0.5);
+
 }
 
+/*导航*/
+.menu{
+	background-color: #69a6d1;
+	color: #fdedd0;
+}
+.nav-link {
+	color: #fdedd0;
+	font-size: 20px;
+}
+.nav-link:hover{
+	color: white;
+}
+
+/*主体*/
 .main{
 	position: absolute; 
 	top: 45%; 
@@ -30,7 +49,7 @@ h1{
 
 .tip{
 	height: 40px;
-	width: 60px;
+	width: auto;
 	display: flex;
 	margin-bottom: 10px;
 }
@@ -42,15 +61,10 @@ h1{
 	margin: auto;
 }
 
-#qpianjia{
+.mid-btn-mg{
 	margin: 0 20px;
 }
-#zpianjia{
-	margin: 0 20px;
-}
-#pianmixbtn{
-	margin: 0 20px;
-}
+
 .btn{
 	background-color: #69a6d1; 
 	color: #fdedd0;
@@ -61,4 +75,15 @@ h1{
 
 .change{
 	margin-right: 20px;
+}
+
+/*数字练习页*/
+.number{
+	height: 100px;
+	width: auto;
+	padding: 0 15px;
+	background-color: #69a6d1;
+	border: 2px solid #1f597e;
+	border-radius: 15%;
+	display: flex;
 }
