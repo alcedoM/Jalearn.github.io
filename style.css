@@ -36,7 +36,7 @@ h1{
 	width: 100px;
 	background-color: #69a6d1;
 	border: 2px solid #1f597e;
-	border-radius: 15%;
+	border-radius: 15px;
 	display: flex;
 }
 
@@ -84,6 +84,17 @@ h1{
 	padding: 0 15px;
 	background-color: #69a6d1;
 	border: 2px solid #1f597e;
-	border-radius: 15%;
+	border-radius: 15px;
+	display: flex;
+}
+
+/*动词练习页*/
+.verb{
+	height: 100px;
+	width: auto;
+	padding: 0 15px;
+	background-color: #69a6d1;
+	border: 2px solid #1f597e;
+	border-radius: 15px;
 	display: flex;
 }
